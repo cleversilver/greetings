@@ -5,3 +5,9 @@ This program asks the user for their name and greets them with a personalized me
 ## Usage
 
 To run the program, execute the following code:
+
+def greeting():
+name = input("What is your name? ")
+print(f"Hello, {name}! It's nice to meet you.")
+
+greeting()
